@@ -7,6 +7,24 @@ If you’re already using the [QnA Maker cognitive service](https://qnamaker.ai)
 
 Learn more about [how to create a new knowledge base](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/home) or [update an existing knowledge base](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/home) in QnAMaker
 
+### **.qna format**
+
+All data sets are available in .qna format [here][2]. See [here][1] to learn more about .qna format.
+
+|         |Professional                |Friendly               |Witty               |Caring               |Enthusiastic               |
+|----------|----------------------------|-----------------------|--------------------|---------------------|---------------------------|
+|Chinese   |[Chinese_Professional.qna](./qnaFormat/chinese_simplified/qna_chitchat_professional.qna)   |[Chinese_Friendly.qna](./qnaFormat/chinese_simplified/qna_chitchat_friendly.qna)   |[Chinese_Witty.qna](./qnaFormat/chinese_simplified/qna_chitchat_witty.qna)   |[Chinese_Caring.qna](./qnaFormat/chinese_simplified/qna_chitchat_caring.qna)   |[Chinese_Enthusiastic.qna](./qnaFormat/chinese_simplified/qna_chitchat_enthusiastic.qna)   |
+|English   |[English_Professional.qna](./qnaFormat/english/qna_chitchat_professional.qna)   |[English_Friendly.qna](./qnaFormat/english/qna_chitchat_friendly.qna)   |[English_Witty.qna](./qnaFormat/english/qna_chitchat_witty.qna)   |[English_Caring.qna](./qnaFormat/english/qna_chitchat_caring.qna)   |[English_Enthusiastic.qna](./qnaFormat/english/qna_chitchat_enthusiastic.qna)   |
+|French   |[French_Professional.qna](./qnaFormat/french/qna_chitchat_professional.qna)   |[French_Friendly.qna](./qnaFormat/french/qna_chitchat_friendly.qna)   |[French_Witty.qna](./qnaFormat/french/qna_chitchat_witty.qna)   |[French_Caring.qna](./qnaFormat/french/qna_chitchat_caring.qna)   |[French_Enthusiastic.qna](./qnaFormat/french/qna_chitchat_enthusiastic.qna)   |
+|German   |[German_Professional.qna](./qnaFormat/german/qna_chitchat_professional.qna)   |[German_Friendly.qna](./qnaFormat/german/qna_chitchat_friendly.qna)   |[German_Witty.qna](./qnaFormat/german/qna_chitchat_witty.qna)   |[German_Caring.qna](./qnaFormat/german/qna_chitchat_caring.qna)   |[German_Enthusiastic.qna](./qnaFormat/german/qna_chitchat_enthusiastic.qna)   |
+|Italian   |[Italian_Professional.qna](./qnaFormat/italian/qna_chitchat_professional.qna)   |[Italian_Friendly.qna](./qnaFormat/italian/qna_chitchat_friendly.qna)   |[Italian_Witty.qna](./qnaFormat/italian/qna_chitchat_witty.qna)   |[Italian_Caring.qna](./qnaFormat/italian/qna_chitchat_caring.qna)   |[Italian_Enthusiastic.qna](./qnaFormat/italian/qna_chitchat_enthusiastic.qna)   |
+|Japanese   |[Japanese_Professional.qna](./qnaFormat/japanese/qna_chitchat_professional.qna)   |[Japanese_Friendly.qna](./qnaFormat/japanese/qna_chitchat_friendly.qna)   |[Japanese_Witty.qna](./qnaFormat/japanese/qna_chitchat_witty.qna)   |[Japanese_Caring.qna](./qnaFormat/japanese/qna_chitchat_caring.qna)   |[Japanese_Enthusiastic.qna](./qnaFormat/japanese/qna_chitchat_enthusiastic.qna)   |
+|Korean   |[Korean_Professional.qna](./qnaFormat/korean/qna_chitchat_professional.qna)   |[Korean_Friendly.qna](./qnaFormat/korean/qna_chitchat_friendly.qna)   |[Korean_Witty.qna](./qnaFormat/korean/qna_chitchat_witty.qna)   |[Korean_Caring.qna](./qnaFormat/korean/qna_chitchat_caring.qna)   |[Korean_Enthusiastic.qna](./qnaFormat/korean/qna_chitchat_enthusiastic.qna)   |
+|Portuguese   |[Portuguese_Professional.qna](./qnaFormat/portuguese/qna_chitchat_professional.qna)   |[Portuguese_Friendly.qna](https://qnamakerstore.blob.core.windows.net/qnamakerdata/editorial/portuguese/qna_chitchat_friendly.qna)   |[Portuguese_Witty.qna](./qnaFormat/portuguese/qna_chitchat_witty.qna)   |[Portuguese_Caring.qna](./qnaFormat/portuguese/qna_chitchat_caring.qna)   |[Portuguese_Enthusiastic.qna](./qnaFormat/portuguese/qna_chitchat_enthusiastic.qna)   |
+|Spanish   |[Spanish_Professional.qna](./qnaFormat/spanish/qna_chitchat_professional.qna)   |[Spanish_Friendly.qna](./qnaFormat/spanish/qna_chitchat_friendly.qna)   |[Spanish_Witty.qna](./qnaFormat/spanish/qna_chitchat_witty.qna)   |[Spanish_Caring.qna](./qnaFormat/spanish/qna_chitchat_caring.qna)   |[Spanish_Enthusiastic.qna](./qnaFormat/spanish/qna_chitchat_enthusiastic.qna)   |
+
+
+### **.tsv format**
 
 |         |Professional                |Friendly               |Witty               |Caring               |Enthusiastic               |
 |----------|----------------------------|-----------------------|--------------------|---------------------|---------------------------|
@@ -21,7 +39,5 @@ Learn more about [how to create a new knowledge base](https://docs.microsoft.com
 |Spanish   |[Spanish_Professional.tsv]( https://qnamakerstore.blob.core.windows.net/qnamakerdata/editorial/spanish/qna_chitchat_professional.tsv)   |[Spanish_Friendly.tsv]( https://qnamakerstore.blob.core.windows.net/qnamakerdata/editorial/spanish/qna_chitchat_friendly.tsv)   |[Spanish_Witty.tsv]( https://qnamakerstore.blob.core.windows.net/qnamakerdata/editorial/spanish/qna_chitchat_witty.tsv)   |[Spanish_Caring.tsv]( https://qnamakerstore.blob.core.windows.net/qnamakerdata/editorial/spanish/qna_chitchat_caring.tsv)   |[Spanish_Enthusiastic.tsv]( https://qnamakerstore.blob.core.windows.net/qnamakerdata/editorial/spanish/qna_chitchat_enthusiastic.tsv)   |
 
 
-
-
-
-
+[1]:https://aka.ms/qna-file-format
+[2]:./qnaFormat
