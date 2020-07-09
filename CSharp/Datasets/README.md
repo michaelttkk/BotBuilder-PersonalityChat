@@ -3,13 +3,11 @@ The chit-chat/ small talk datasets for the ~100 scenarios include responses and 
 
 
 ## Chit-chat using QnA Maker
-If you’re already using the [QnA Maker cognitive service](https://qnamaker.ai) to create chatbots, you can easily add Personality Chat when you [create a knowledge base](https://aka.ms/qnamaker-chitchat-learnmore). To add Personality Chat to an existing knowledge base, download a data set and upload it to your knowledge base. These datasets have been specifically curated to work with QnA MAker. Do not make any edits or change the file's formatting before adding it to your QnA Maker knowledge base
-
-Learn more about [how to create a new knowledge base](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/home) or [update an existing knowledge base](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/home) in QnAMaker
+If you’re already using the [QnA Maker cognitive service](https://qnamaker.ai) to create chatbots, you can easily add Personality Chat when you [create a knowledge base](https://aka.ms/qnamaker-chitchat-learnmore). 
 
 ### **.qna format**
 
-All data sets are available in .qna format [here][2]. See [here][1] to learn more about .qna format.
+All data sets are available in .qna format [here][2]. See [here][1] to learn more about .qna format. You can use [import refernece in the .qna format][3] to add chit-chat data to your QnA content. Once you have your .qna content, you can use [QnA Maker command in Bot Framework CLI][4] to create/ replace/ publish your knowledge base.
 
 |         |Professional                |Friendly               |Witty               |Caring               |Enthusiastic               |
 |----------|----------------------------|-----------------------|--------------------|---------------------|---------------------------|
@@ -26,6 +24,10 @@ All data sets are available in .qna format [here][2]. See [here][1] to learn mor
 
 ### **.tsv format**
 
+To add Personality Chat to an existing knowledge base, download a data set and upload it to your knowledge base. These datasets have been specifically curated to work with QnA MAker. Do not make any edits or change the file's formatting before adding it to your QnA Maker knowledge base
+
+Learn more about [how to create a new knowledge base](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/home) or [update an existing knowledge base](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/home) in QnAMaker
+
 |         |Professional                |Friendly               |Witty               |Caring               |Enthusiastic               |
 |----------|----------------------------|-----------------------|--------------------|---------------------|---------------------------|
 |Chinese   |[Chinese_Professional.tsv]( https://qnamakerstore.blob.core.windows.net/qnamakerdata/editorial/chinese_simplified/qna_chitchat_professional.tsv)   |[Chinese_Friendly.tsv]( https://qnamakerstore.blob.core.windows.net/qnamakerdata/editorial/chinese_simplified/qna_chitchat_friendly.tsv)   |[Chinese_Witty.tsv]( https://qnamakerstore.blob.core.windows.net/qnamakerdata/editorial/chinese_simplified/qna_chitchat_witty.tsv)   |[Chinese_Caring.tsv]( https://qnamakerstore.blob.core.windows.net/qnamakerdata/editorial/chinese_simplified/qna_chitchat_caring.tsv)   |[Chinese_Enthusiastic.tsv]( https://qnamakerstore.blob.core.windows.net/qnamakerdata/editorial/chinese_simplified/qna_chitchat_enthusiastic.tsv)   |
@@ -41,3 +43,5 @@ All data sets are available in .qna format [here][2]. See [here][1] to learn mor
 
 [1]:https://aka.ms/qna-file-format
 [2]:./qnaFormat
+[3]:https://docs.microsoft.com/en-us/azure/bot-service/file-format/bot-builder-qna-file-format?view=azure-bot-service-4.0#reference-from-a-specific-file
+[4]:https://github.com/microsoft/botframework-cli/tree/master/packages/qnamaker
